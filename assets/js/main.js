@@ -23,4 +23,26 @@ document.write(Natalia.saludar()+"<br>");
 
 
  var validarRomina = document.getElementById("romina")
- validarRomina.innerHTML = saludar()+"<br>";
+ validarRomina.innerHTML = "<strong><em>Hola...!</em></strong "+"<br>" + "<br>"+ "<strong>Mi nombre es:</strong> " + Romina.nombre +"<br>"+ "<strong> Mi apellido es:</strong> " + Romina.apellido + "<br>"+ " <strong>Mi edad:</strong> " + Romina.edad + "años"
+ var hobbies = document.getElementById("meEncanta")
+ hobbies.innerHTML = "<strong> Me encanta: </strong> <br>"
+
+ var validarPaulina = document.getElementById("paulina")
+ validarPaulina.innerHTML = "<strong><em>Hola...!</em></strong "+"<br>" + "<br>"+ "<strong>Mi nombre es:</strong> " + Paulina.nombre +"<br>"+ "<strong> Mi apellido es:</strong> " + Paulina.apellido + "<br>"+ " <strong>Mi edad:</strong> " + Paulina.edad + "años"
+ var hobbies2 = document.getElementById("meEncanta2")
+ hobbies2.innerHTML = "<strong> Me encanta: </strong>"
+
+ var validarKaterine = document.getElementById("katerine")
+ validarKaterine.innerHTML = "<strong><em>Hola...!</em></strong "+"<br>" + "<br>"+ "<strong>Mi nombre es:</strong> " + Katerine.nombre +"<br>"+ "<strong> Mi apellido es:</strong> " + Katerine.apellido + "<br>"+ " <strong>Mi edad:</strong> " + Katerine.edad + "años"
+ var hobbies3 = document.getElementById("meEncanta3")
+ hobbies3.innerHTML = "<strong> Me encanta: </strong>"
+
+ var validarKaterine = document.getElementById("katerine")
+ validarKaterine.innerHTML = "<strong><em>Hola...!</em></strong "+"<br>" + "<br>"+ "<strong>Mi nombre es:</strong> " + Katerine.nombre +"<br>"+ "<strong> Mi apellido es:</strong> " + Katerine.apellido + "<br>"+ " <strong>Mi edad:</strong> " + Katerine.edad + "años"
+ var hobbies3 = document.getElementById("meEncanta3")
+ hobbies3.innerHTML = "<strong> Me encanta: </strong>"
+
+ var validarNatalia = document.getElementById("natalia")
+ validarNatalia.innerHTML = "<strong><em>Hola...!</em></strong "+"<br>" + "<br>"+ "<strong>Mi nombre es:</strong> " + Natalia.nombre +"<br>"+ "<strong> Mi apellido es:</strong> " + Natalia.apellido + "<br>"+ " <strong>Mi edad:</strong> " + Natalia.edad + "años"
+ var hobbies4 = document.getElementById("meEncanta4")
+ hobbies4.innerHTML = "<strong> Me encanta: </strong>"
